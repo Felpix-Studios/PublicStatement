@@ -15,7 +15,7 @@ const AppNav = (props) => {
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">GitHub<span class="sr-only">(current)</span></NavLink>
+              <NavLink href="https://github.com/Felpix-Studios/Public-Statement">GitHub<span class="sr-only">(current)</span></NavLink>
             </NavItem>
           </Nav>
         </Collapse>

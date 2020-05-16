@@ -25,12 +25,10 @@ class StatementForm extends Component{
   }
   onSubmit=(e)=>{
     document.getElementById("statementForm").reset();
-    console.log("submitting")
     const newStatement={
       name:this.state.name,
       message:this.state.message
     }
-    console.log(newStatement)
     this.props.addStatement(newStatement);
     e.preventDefault()
   }

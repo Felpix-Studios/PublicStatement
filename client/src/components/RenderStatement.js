@@ -12,7 +12,6 @@ class RenderStatement extends Component{
 
   render(){
     const{ statements } = this.props.statement;
-    console.log(statements);
     return(
       <Container>
         <ListGroup>
