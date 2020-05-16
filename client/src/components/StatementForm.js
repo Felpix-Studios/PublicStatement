@@ -24,6 +24,7 @@ class StatementForm extends Component{
     this.setState({[e.target.name]:e.target.value});
   }
   onSubmit=(e)=>{
+    document.getElementById("statementForm").reset();
     console.log("submitting")
     const newStatement={
       name:this.state.name,
@@ -35,7 +36,7 @@ class StatementForm extends Component{
   }
     render(){
       return(
-        <Form style={{textAlign:`left`, alignSelf:'stretch', marginTop:'2rem'}}>
+        <Form id="statementForm" style={{textAlign:`left`, alignSelf:'stretch', marginTop:'2rem'}}>
               <FormGroup>
                 <Label for="name">Name</Label>
                 <Input

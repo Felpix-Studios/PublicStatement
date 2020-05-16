@@ -28,5 +28,5 @@ export const addStatement=(statement)=>dispatch=>{
 export const setStatementsLoading=()=>{
   return{
     type: STATEMENTS_LOADING
-  };
+  }
 };
