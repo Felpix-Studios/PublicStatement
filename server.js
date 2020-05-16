@@ -12,7 +12,7 @@ app.use(express.json());
 
 
 //DB config
-const db='mongodb+srv://felpix:felpix@cluster0-cdtzk.mongodb.net/test?retryWrites=true&w=majority';
+const db='insert db';
 
 mongoose
   //connect
